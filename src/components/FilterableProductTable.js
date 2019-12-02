@@ -1,8 +1,8 @@
 import React from "react";
+import SearchBar from "./SearchBar";
 
 const FilterableProductTable = ({ data }) => {
-  console.log(data);
-  return <div>hi</div>;
+  return <SearchBar data={data} />;
 };
 
 export default FilterableProductTable;
