@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import data from "./model/data";
-import Table from "./components/Table";
+import FilterableProductTable from "./components/FilterableProductTable";
 
-ReactDOM.render(<Table data={data} />, document.getElementById("root"));
+ReactDOM.render(
+  <FilterableProductTable data={data} />,
+  document.getElementById("root")
+);
