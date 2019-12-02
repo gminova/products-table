@@ -1,4 +1,4 @@
-const data = [
+const mock = [
   {
     category: "Sporting Goods",
     price: "$49.99",
@@ -32,4 +32,4 @@ const data = [
   { category: "Electronics", price: "$199.99", stocked: true, name: "Nexus 7" }
 ];
 
-export default data;
+export default mock;
