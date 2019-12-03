@@ -17,7 +17,7 @@ const FilterableProductTable = () => {
   return (
     <div>
       <SearchBar data={data} />
-      <ProductTable />
+      <ProductTable data={data} />
     </div>
   );
 };
