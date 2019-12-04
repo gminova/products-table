@@ -1,7 +1,6 @@
 import React from "react";
 
 const SearchBar = ({ data }) => {
-  console.log(data);
   return (
     <div>
       <label htmlFor="search" aria-label="search">

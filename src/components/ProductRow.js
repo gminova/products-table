@@ -5,8 +5,8 @@ const ProductRow = ({ data }) => {
     <tr>
       {data.map((e, i) => (
         <>
-          <td key={i}>{e.name}</td>
-          <td key={i + 999}>{e.price}</td>
+          <td>{e.name}</td>
+          <td>{e.price}</td>
         </>
       ))}
     </tr>

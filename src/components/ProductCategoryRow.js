@@ -4,9 +4,7 @@ const ProductCategoryRow = ({ data }) => {
   return (
     <tr>
       {data.map((e, i) => (
-        <th colSpan="2" key={i + 10000}>
-          {e.category}
-        </th>
+        <th colSpan="2">{e.category}</th>
       ))}
     </tr>
   );
